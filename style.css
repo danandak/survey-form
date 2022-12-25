@@ -1,0 +1,95 @@
+*{
+	font-family: "product sans"
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 13vh 0;
+	background-color: #080520;
+	background-image: url(Assets/Images/coba.png);
+	background-size: cover;
+	color: #C8C5C5;
+	font-size: 16px;
+}
+
+/*h3:first-of-type {
+	margin: 0;
+}*/
+
+h3 {
+	margin: 15px 0 0 0;
+}
+
+form {
+	width: 60vw;
+	/*height: 100vh;*/
+	min-width: 350px;
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #DEDEDE;
+	padding: 2em 2em 2em 2em;
+	color: black;
+	border-radius: 1em;
+	box-sizing: border-box; 
+}
+
+input, select, textarea {
+	width: 100%;
+	margin: 10px 0;
+	border: none;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: #080520;
+	color: #C8C5C5;	
+	font-size: 17px;
+	/*padding: 10px;*/
+	/*padding: 0 10px;*/
+} 
+
+::placeholder{
+	padding: 10px;
+	color: #C8C5C5;
+}
+
+input, select {
+	min-height: 2.5em;
+}
+
+.multiple-choice {
+	margin: 3px 0 10px 0;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	width: unset;
+	margin: 0;
+}
+
+input[type="submit"] {
+	display: block;
+	background-color: #00D323;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.inline {
+	vertical-align: middle;
+}
+
+h1, p {
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+}
+
+label {
+	display: block;
+}
+
+.ket-1 {
+	font-size: 14px;
+}

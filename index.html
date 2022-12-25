@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<h1 id="title">Survey Form</h1>
+		<p id="description">Thank you for taking the time to help us improve the platform</p>
+	</header>
+	<main>
+		<form action="" id="survey-form">
+			<label for="" id="name-label"><h3>Name</h3> <input type="text" placeholder="Enter your name" id="name" required></label>
+			<label for="" id="email-label"><h3>Email</h3> <input type="email" placeholder="Enter your email" id="email" required></label>
+			<label for="" id="number-label"><h3>Age</h3> <input type="number" min="10" max="99" placeholder="Only 10 to 99 years old allowed" id="number"></label>
+
+			<label for="">
+				<h3>Which option best describes your current role?</h3>
+				<select name="" id="dropdown">
+					<option value="">Select current role</option>
+					<option value="1">Student</option>
+					<option va	lue="2">Full Time Job</option>
+					<option value="3">Full Time Learner</option>
+					<option value="4">Prefer not to say</option>
+					<option value="5">Other</option>
+				</select>
+			</label>
+			<label for="" id="radio-label">
+				<h3>Would you recommend freeCodeCamp to a friend?</h3>
+				<div class="multiple-choice">
+					<label><input type="radio" name="recommendation" class="inline"> Definitely</label>
+					<label><input type="radio" name="recommendation" class="inline"> Maybe</label>
+					<label><input type="radio" name="recommendation" class="inline"> Not sure</label>
+				</div>
+			</label>
+			<label for="">
+				<h3>What is your favorite feature of freeCodeCamp?</h3>
+				<select name="" id="fav-feature">
+					<option value="">Select current role</option>
+					<option value="1">Challenges</option>
+					<option value="2">Projects</option>
+					<option value="3">Community</option>
+					<option value="4">Open Source</option>
+				</select>
+			</label>
+			<label id="checkbox-label">
+				<h3>What would you like to see improved? <span class="ket-1">(Check all that apply)</span></h3>
+				<div class="multiple-choice">
+					<label><input type="checkbox" value="BE" class="inline"> Back-End</label>
+					<label><input type="checkbox" value="FE" class="inline"> Front-End</label>
+					<label><input type="checkbox" value="FS" class="inline"> Full-Stack</label>
+				</div>
+			</label>
+			<label>
+				<h3>Any comments or suggestion?</h3>
+				<textarea name="" id="comments" rows="5" placeholder="Enter your comments"></textarea>
+			</label>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+</body>
+</html>
